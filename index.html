@@ -561,25 +561,25 @@ Site documentation sent to you within 48 hours of application •<br>
 						</div>
 						<div class="col-sm-6">
 							<div class="footer-content">
-								<form role="form" id="footer-form">
+								<form role="form" id="footer-form" action="contact.php" method="POST">
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="name2">Name</label>
-										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+										<input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
 										<i class="fa fa-user form-control-feedback"></i>
 									</div>
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="email2">Email address</label>
-										<input type="email" class="form-control" id="email2" placeholder="Email" name="email2" required>
+										<input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
 										<i class="fa fa-envelope form-control-feedback"></i>
 									</div>
 										<div class="form-group has-feedback">
 										<label class="sr-only" for="email2">Phone Number</label>
-										<input type="email" class="form-control" id="phone2" placeholder="Phone" name="phone2" required>
+										<input type="tel" class="form-control" id="phone" placeholder="Phone" name="phone" required>
 										<i class="fa fa-phone form-control-feedback"></i>
 									</div>
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="message2">Message</label>
-										<textarea class="form-control" rows="11" id="message2" placeholder="Message" name="message2" required></textarea>
+										<textarea class="form-control" rows="11" id="message" placeholder="Message" name="message" required></textarea>
 										<i class="fa fa-pencil form-control-feedback"></i>
 									</div>
 									<input type="submit" value="Send" class="btn btn-default">
@@ -629,6 +629,7 @@ Site documentation sent to you within 48 hours of application •<br>
 		<script type="text/javascript" src="js/template.js"></script>
 
 		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/location-data.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
 		
 		<!-- Handlebars Templating -->
