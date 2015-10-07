@@ -102,7 +102,7 @@
 												<li><a href="#portfolio">Locations</a></li>
 												<li><a href="#clients">Tenants</a></li>
 								<!--				<li><a href="#">Property Owners</a></li>-->
-												<li><a href="#contact">Contact</a></li>
+												<li><a id="btn-nav" class="btn btn-primary" href="#contact">Contact</a></li>
 											</ul>
 										</div>
 
@@ -342,15 +342,15 @@ Site documentation sent to you within 48 hours of application •<br>
 						<div class="filters text-center">
 							<ul class="nav nav-pills">
 								<li class="active"><a href="#" data-filter="*">All</a></li>
-								<li><a href="#" data-filter=".web-design">South Africa</a></li>
-								<li><a href="#" data-filter=".app-development">United States</a></li>
+								<li><a href="#" data-filter=".south-africa">South Africa</a></li>
+								<li><a href="#" data-filter=".usa">United States</a></li>
 <!--								<li><a href="#" data-filter=".site-building">Pretoria</a></li>-->
 							</ul>
 						</div>
 						<!-- isotope filters end -->
 
 						<!-- portfolio items start -->
-						<div class="isotope-container row grid-space-20">
+						<div id="location-grid" class="isotope-container row grid-space-20">
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -511,6 +511,7 @@ Site documentation sent to you within 48 hours of application •<br>
 								<!-- Modal end -->
 							</div>
 							
+							<!-- Washington -->
 							<div class="col-sm-6 col-md-3 isotope-item app-development">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -549,8 +550,9 @@ Site documentation sent to you within 48 hours of application •<br>
 									</div>
 								</div>
 								<!-- Modal end -->
-							</div>
+							</div><!-- End Washington -->
 							
+							<!-- Eastern Cape -->
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -589,8 +591,9 @@ Site documentation sent to you within 48 hours of application •<br>
 									</div>
 								</div>
 								<!-- Modal end -->
-							</div>
+							</div><!-- End Eastern Cape -->
 							
+							<!-- Site Building -->
 							<div class="col-sm-6 col-md-3 isotope-item site-building">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -629,8 +632,9 @@ Site documentation sent to you within 48 hours of application •<br>
 									</div>
 								</div>
 								<!-- Modal end -->
-							</div>
+							</div><!-- End Site Building -->
 							
+							<!-- Kwal-Sulu Natal -->
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -669,8 +673,9 @@ Site documentation sent to you within 48 hours of application •<br>
 									</div>
 								</div>
 								<!-- Modal end -->
-							</div>
-
+							</div><!-- End Kwal-Sulu Natal -->
+                           
+                            <!-- Limpopo -->
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -709,8 +714,9 @@ Site documentation sent to you within 48 hours of application •<br>
 									</div>
 								</div>
 								<!-- Modal end -->
-							</div>
+							</div><!-- End Limpopo -->
 
+                            <!-- Site Building -->
 							<div class="col-sm-6 col-md-3 isotope-item site-building">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -749,8 +755,9 @@ Site documentation sent to you within 48 hours of application •<br>
 									</div>
 								</div>
 								<!-- Modal end -->
-							</div>
+							</div><!-- End Site Building -->
 
+                            <!-- Mphumalang -->
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -789,18 +796,19 @@ Site documentation sent to you within 48 hours of application •<br>
 									</div>
 								</div>
 								<!-- Modal end -->
-							</div>
+							</div><!-- End Mphumalang -->
 
+                            <!-- Alaska -->
 							<div class="col-sm-6 col-md-3 isotope-item app-development">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/portfolio-12.jpg" alt="">
+										<img src="images/portfolio-2.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-12">
 											<i class="fa fa-search-plus"></i>
-											<span>Oregon</span>
+											<span>Alaska</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-12">Oregon</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-12">Alaska</a>
 								</div>
 								<!-- Modal -->
 								<div class="modal fade" id="project-12" tabindex="-1" role="dialog" aria-labelledby="project-12-label" aria-hidden="true">
@@ -808,7 +816,7 @@ Site documentation sent to you within 48 hours of application •<br>
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-12-label">Oregon</h4>
+												<h4 class="modal-title" id="project-12-label">Alaska</h4>
 											</div>
 											<div class="modal-body">
 												<h3>Project Description</h3>
@@ -818,7 +826,7 @@ Site documentation sent to you within 48 hours of application •<br>
 														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
 													</div>
 													<div class="col-md-6">
-														<img src="images/portfolio-12.jpg" alt="">
+														<img src="images/portfolio-2.jpg" alt="">
 													</div>
 												</div>
 											</div>
@@ -829,24 +837,27 @@ Site documentation sent to you within 48 hours of application •<br>
 									</div>
 								</div>
 								<!-- Modal end -->
+							</div><!-- End Alaska -->
+
+                            <!-- Colorado -->
 							<div class="col-sm-6 col-md-3 isotope-item app-development">
 								<div class="image-box">
 									<div class="overlay-container">
-										<img src="images/portfolio-12.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#project-12">
+										<img src="images/portfolio-2.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-13">
 											<i class="fa fa-search-plus"></i>
-											<span>Free State</span>
+											<span>Colorado</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-13">Free State</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-13">Colorado</a>
 								</div>
 								<!-- Modal -->
-								<div class="modal fade" id="project-12" tabindex="-1" role="dialog" aria-labelledby="project-13-label" aria-hidden="true">
+								<div class="modal fade" id="project-13" tabindex="-1" role="dialog" aria-labelledby="project-13-label" aria-hidden="true">
 									<div class="modal-dialog modal-lg">
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="project-13-label">Free State</h4>
+												<h4 class="modal-title" id="project-13-label">Colorado</h4>
 											</div>
 											<div class="modal-body">
 												<h3>Project Description</h3>
@@ -856,7 +867,7 @@ Site documentation sent to you within 48 hours of application •<br>
 														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
 													</div>
 													<div class="col-md-6">
-														<img src="images/portfolio-12.jpg" alt="">
+														<img src="images/portfolio-2.jpg" alt="">
 													</div>
 												</div>
 											</div>
@@ -867,12 +878,253 @@ Site documentation sent to you within 48 hours of application •<br>
 									</div>
 								</div>
 								<!-- Modal end -->
-							</div>
+							</div><!-- End Colorado -->
+                           
+                            <!-- Wyoming -->
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-2.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-14">
+											<i class="fa fa-search-plus"></i>
+											<span>Wyoming</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-14">Wyoming</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-14" tabindex="-1" role="dialog" aria-labelledby="project-14-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-14-label">Wyoming</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-2.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div><!-- End Wyoming -->
+                           
+                            <!-- Montana -->
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-2.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-15">
+											<i class="fa fa-search-plus"></i>
+											<span>Montana</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-15">Montana</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-15" tabindex="-1" role="dialog" aria-labelledby="project-15-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-15-label">Montana</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-2.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div><!-- End Montana -->
+                           
+                           <!-- Idaho -->
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-2.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-16">
+											<i class="fa fa-search-plus"></i>
+											<span>Idaho</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-16">Idaho</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-16" tabindex="-1" role="dialog" aria-labelledby="project-16-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-16-label">Idaho</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-2.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div><!-- End Idaho -->
+                           
+                            <!-- Michigan -->
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-2.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-17">
+											<i class="fa fa-search-plus"></i>
+											<span>Michigan</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-17">Michigan</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-17" tabindex="-1" role="dialog" aria-labelledby="project-17-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-17-label">Michigan</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-2.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div><!-- End Michigan -->
+                           
+                            <!-- Illinois -->
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-2.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-18">
+											<i class="fa fa-search-plus"></i>
+											<span>Illinois</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-18">Illinois</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-18" tabindex="-1" role="dialog" aria-labelledby="project-18-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-18-label">Illinois</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-2.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div><!-- Modal end -->
+							</div><!-- End Illinois -->
 
-						</div>
-						<!-- portfolio items end -->
-					
-					</div>
+                            <!-- Oregon -->
+							<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-19.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-19">
+											<i class="fa fa-search-plus"></i>
+											<span>Oregon</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-19">Oregon</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-19" tabindex="-1" role="dialog" aria-labelledby="project-19-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-19-label">Oregon</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-19.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div><!-- Modal end -->
+						</div><!-- End Oregon -->
+						
+					</div><!-- portfolio items end -->
 				</div>
 			</div>
 		</div>
@@ -1140,8 +1392,53 @@ Site documentation sent to you within 48 hours of application •<br>
 
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="js/custom.js"></script>
-
+		
+		<!-- Handlebars Templating -->
+        <script id="location-item-template" type="text/x-handlebars-template">
+           {{#each locations}}
+            <div class="col-sm-6 col-md-3 isotope-item {{dataFilter}}">
+                <div class="image-box">
+                    <div class="overlay-container">
+                        <img src="{{image}}" alt="">
+                        <a class="overlay" data-toggle="modal" data-target="#project-{{id}}">
+                            <i class="fa fa-search-plus"></i>
+                            <span>{{name}}</span>
+                        </a>
+                    </div>
+                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-{{id}}">{{name}}</a>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="project-{{id}}" tabindex="-1" role="dialog" aria-labelledby="project-{{id}}-label" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title" id="project-{{id}}-label">{{name}}</h4>
+                            </div>
+                            <div class="modal-body">
+                                <h3>{{title}}</h3>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+                                        <p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="{{image}}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal end -->
+            </div>
+            {{/each}}
+        </script>
+        
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.min.js"></script>
+		
 	</body>
-
-<!-- Mirrored from x2001.com/temp/atlas/at_worthy/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Oct 2015 18:03:45 GMT -->
 </html>
